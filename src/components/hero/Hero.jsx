@@ -5,10 +5,12 @@ import Sns from './sns/Sns';
 
 function Hero() {
   return (
-    <>
-      Hero
-      <Sns />
-    </>
+    <div className="hero">
+      <div className="heroContainer">
+        Hero
+        <Sns />
+      </div>
+    </div>
   )
 }
 

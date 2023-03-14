@@ -8,3 +8,9 @@
   background-color: blue;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 480px) {
+  .app-container {
+    width: 100%;
+  }
+}
