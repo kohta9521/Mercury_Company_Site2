@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./App.css";
+
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import News from "./components/news/News";
@@ -12,25 +14,27 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <>
-      <Header />
+    <div className="app">
+      <div className="app-container">
+        <Header />
 
-      <Hero />
+        <Hero />
 
-      <News />
+        <News />
 
-      <About />
+        <About />
 
-      <Service />
+        <Service />
 
-      <Member />
+        <Member />
 
-      <Company />
+        <Company />
 
-      <Contact />
+        <Contact />
 
-      <Footer />
-    </>
+        <Footer />
+      </div>
+    </div>
   );
 }
 
