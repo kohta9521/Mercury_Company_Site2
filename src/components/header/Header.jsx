@@ -18,8 +18,8 @@ function Header() {
             <li className="headerNavItem"><a href="">ABOUT</a></li>
             <li className="headerNavItem"><a href="">SERVICE</a></li>
             <li className="headerNavItem"><a href="">MEMBER</a></li>
-            <li className="headerNavItem"><a href="">COMPANY</a></li>
-            <li className="headerNavItem headerContactButton"><a href="">CONTACT</a></li>
+            <li className="headerNavItem"><a href="">CONTACT</a></li>
+            <li className="headerNavItem headerContactButton"><a href=""></a></li>
           </ul>
         </div>
       </div>
