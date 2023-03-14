@@ -4,7 +4,11 @@ import "./Header.css"
 
 function Header() {
   return (
-    <div>Header</div>
+    <div className='header'>
+      <div className="headerContainer">
+        Header
+      </div>
+    </div>
   )
 }
 
