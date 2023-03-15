@@ -4,7 +4,16 @@ import "./Sns.css";
 
 function Sns() {
   return (
-    <div>Sns</div>
+    <div className="sns">
+      <div className="snsContainer">
+        <ul className="snsFlex">
+          <li>
+            <a href="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   )
 }
 
