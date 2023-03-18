@@ -1,0 +1,107 @@
+.skills {
+    width: 100%;
+    height: 90vh;
+    &__container {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        &__title {
+            width: 100%;
+            height: 10%;
+            &_item {
+                color: white;
+                padding-left: 10px;
+                font-family: 'Hind Siliguri', sans-serif;
+                font-size: 33px;
+            }
+            &_span {
+                color: #3CB9FC;
+                font-family: 'Chakra Petch', sans-serif;
+                font-size: 25px;
+                margin-right: 10px;
+            }
+        }
+        &__article {
+            width: 95%;
+            height: 10%;
+            margin: 0 auto;
+            &_item {
+                color: white;
+            }
+        }
+        &__skills {
+            width: 80%;
+            height: 35%;
+            margin: 5% auto;
+            display: flex;
+            &__area {
+                width: 30%;
+                height: 100%;
+                margin: 0 auto;
+                &_title {
+                    color: white;
+                    text-align: center;
+                }
+                &_item {
+                    width: 40%;
+                    height: 10%;               
+                    margin: 30px auto;
+                    display: flex;
+                    justify-content: space-between;
+                    &_number {
+                        font-size: 1/3rem;
+                        line-height: 100%;
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+        &__itemarea {
+            width: 95%;
+            height: 12%;
+            margin: 18% auto;
+            border: 1px dotted  white;
+            &_item {
+                color: white;
+                font-size: 15px;
+            }
+        }
+        &__statearea {
+            width: 95%;
+            margin: 5% auto;
+            border: 1px dotted white;
+            &_item {
+                width: 95%;
+                margin: 2% auto;
+                color: rgb(173, 173, 173);
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 520px) {
+    .skills {
+        width: 100%;
+        height: 300vh;
+        &__container {
+            width: 95%;
+            margin: 0- auto;
+            &__chartarea {
+                width: 100%;
+                height: 100vh;
+                display: block;
+                margin: 0 auto;
+                &_item {
+                    display: block;
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+            &__chartmore {
+                display: none;
+            }
+        }
+    }
+}
