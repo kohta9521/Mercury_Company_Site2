@@ -11,17 +11,8 @@ function Header() {
             Mercury
           </h1>
         </div>
-        <div className="headerNavArea">
-          <ul className="headerNav">
-            <li className="headerNavItem"><a href="">HOME</a></li>
-            <li className="headerNavItem"><a href="">NEWS</a></li>
-            <li className="headerNavItem"><a href="">ABOUT</a></li>
-            <li className="headerNavItem"><a href="">SERVICE</a></li>
-            <li className="headerNavItem"><a href="">MEMBER</a></li>
-            <li className="headerNavItem"><a href="">CONTACT</a></li>
-            <li className="headerNavItem headerContactButton"><a href=""></a></li>
-          </ul>
-        </div>
+
+      
       </div>
     </div>
   )
