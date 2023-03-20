@@ -1,5 +1,5 @@
 .news {
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
   height: 30vh;
 }
@@ -13,7 +13,7 @@
 /*ニュース1行の周りの余白*/
 .slider a{
   display: block;
-  background:rgb(205, 86, 86);
+  background:rgb(255, 255, 255);
   padding:20px;
 }
 
@@ -22,7 +22,9 @@
   display:inline-block;
   font-size:0.8rem;
   margin-right:10px;
-  color:#777;
+  padding-left: 15px;
+  border-left: 1px solid black;
+  color:rgb(0, 0, 0);
 }
 
 /*768px以下の見た目 ※1行のままにしたい場合は不要　*/
