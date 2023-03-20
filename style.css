@@ -445,7 +445,7 @@ nav .inner ul li a:hover {
   }
 }
 .news {
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
   height: 30vh;
 }
@@ -461,7 +461,7 @@ nav .inner ul li a:hover {
 /*ニュース1行の周りの余白*/
 .slider a {
   display: block;
-  background: rgb(205, 86, 86);
+  background: rgb(255, 255, 255);
   padding: 20px;
 }
 
@@ -470,7 +470,9 @@ nav .inner ul li a:hover {
   display: inline-block;
   font-size: 0.8rem;
   margin-right: 10px;
-  color: #777;
+  padding-left: 15px;
+  border-left: 1px solid black;
+  color: rgb(0, 0, 0);
 }
 
 /*768px以下の見た目 ※1行のままにしたい場合は不要　*/
@@ -495,6 +497,61 @@ nav .inner ul li a:hover {
     padding-bottom: 10px;
   }
 }
+.services {
+  width: 100%;
+  height: 100vh;
+}
+.services__container {
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(213, 198, 177);
+}
+
+.work {
+  width: 100%;
+  height: 100vh;
+}
+.work__container {
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(171, 141, 100);
+}
+
+.sponsors {
+  width: 100%;
+  height: 100vh;
+}
+.sponsors__container {
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(41, 40, 39);
+}
+
+.recruit {
+  width: 100%;
+  height: 100vh;
+}
+.recruit__container {
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(143, 131, 114);
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+}
+.contact__container {
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(143, 131, 114);
+}
+
 body {
   background-color: #ffffff;
 }

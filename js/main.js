@@ -11,16 +11,16 @@ mask.onclick = () => {
   nav.classList.toggle("open");
 };
 
-// #page-topをクリックした際の設定
-$("#page-top").click(function () {
-  $("body,html").animate(
-    {
-      scrollTop: 0,
-    },
-    500
-  );
-  return false;
-});
+// #page-topをクリックした際の設定 error 発生中　要検討
+// $("#page-top").click(function () {
+//   $("body,html").animate(
+//     {
+//       scrollTop: 0,
+//     },
+//     500
+//   );
+//   return false;
+// });
 
 var slider;
 var sliderFlag = false;
