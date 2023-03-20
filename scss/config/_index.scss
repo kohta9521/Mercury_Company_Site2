@@ -30,3 +30,14 @@
 
 // footer 読み込み
 @forward "./footer/index.scss";
+
+
+// 遷移ページ用のSASS import 
+
+// 企業指針 読み込み
+@forward "./pointer/index";
+
+// 代表挨拶 読み込み
+@forward "./top/index";
+
+
